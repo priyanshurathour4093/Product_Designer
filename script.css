@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "general sans";
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+
+}
+#minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 500ms;
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 9999;
+    position: absolute;
+}
+.bounding{
+    width: fit-content;
+    /* background-color: red; */
+    overflow: hidden;
+
+}
+.bounding .boundingelem{
+    transform: translateY(100%);
+}
+#main{
+    width: 100%;
+    background-color: black;
+}
+#hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+#nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 40px;
+}
+#nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    
+}
+#nav h4{
+    color: white;
+}
+#heading{
+    width: 100%;
+    color: white;
+    margin-top: 120px;
+   
+}
+#heading h1{
+    font-size: 10vw;
+    font-weight: 900;
+    line-height: .9;
+    opacity: .6;
+    margin-left: 60px;
+}
+#heading #second h1{
+    margin-left: 220px;
+}
+.bordertext{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: fit-content;
+    /* background-color: red; */
+    
+}
+.bordertext h5{
+    text-align: right;
+    font-size: 15px;
+    margin-top: 13px;
+    /* background-color: yellow; */
+}
+#head2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: white;
+    margin-top: 130px;
+    font-size: 1.3vw;
+  padding-right: 37px;
+    text-align: right;
+    line-height: 2.2;
+}
+#herofooter{
+    padding: 0 2vw;
+    width: 100%;
+    position: absolute;
+    bottom: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#herofooter a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+#herofooter #iconset{
+    display: flex;
+    gap: 5px;
+}
+.circle{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#secondpage{
+    padding-top: 200px;
+    padding-right: 10vw;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    
+}
+#secondpage .elem{
+    position: relative;
+    width: 100%;
+    padding: 3vw 3vw;
+    border-top: 1px solid #888;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0;
+    
+}
+.elem h1{
+    color: white;
+    opacity: .7;
+    font-size: 7vw;
+}
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+.elem img{
+    opacity: 0;
+    pointer-events: none;
+    height: 110%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+#about{
+    background-color: black;
+    width: 100%;
+    padding: 10vw 5vw;
+    padding-left: 40vw;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+#about img{
+    width: 200px;
+}
+#textabout h5{
+    color: #888;
+    margin-bottom: 8px;
+}
+#textabout p{
+    margin-bottom: 25px;
+    line-height: 1.7 ;
+
+}
+#textabout{
+    color: white;
+    width: 25rem;
+}
+#textabout button{
+    background-color: black;
+    color: white;
+    border-radius: 100px;
+    font-size: 15px;
+    padding: 10px 22px;
+    border: 1px solid white;
+    
+}
+#subscribe{
+    background-color: black;
+    color: white;
+    padding: 20px 30px;
+    padding-bottom: 3.5vw;
+}
+#subscribe h5{
+    opacity: .5;
+}
+#subscribe a{
+    font-size: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+#subscribe a i{
+    color: white;
+}
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+    background-color: black;
+    
+}
+#footerleft{
+    color: white;
+    display: flex;
+    gap: 30px;
+
+}
+#footerright{
+    display: flex;
+    gap: 40px;
+}
+#footerright a{
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
